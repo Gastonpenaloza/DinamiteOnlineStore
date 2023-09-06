@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { CartContext } from '../context/CartContext';
-import "../routes/ContactPage.CSS";
+import "../routes/ContactPage.css";
 import { Button, Form } from 'react-bootstrap';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../firebase/config';
