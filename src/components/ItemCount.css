@@ -1,0 +1,21 @@
+
+.Item-count_container {
+    margin-top: 4rem;
+}
+
+.Item-count {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.Item-count p {
+    margin-bottom: 0;
+}
+
+.Item-count_container .button-add {
+    display: block;
+    margin: auto;
+}

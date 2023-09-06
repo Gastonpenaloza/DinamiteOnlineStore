@@ -1,0 +1,20 @@
+.container.content.checkout p {
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 6rem;
+    margin-bottom: 12rem;
+}
+
+.orderNumber {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1049px) {
+    .container.content.checkout p {
+        display: block;
+        margin-top: 6rem;
+        margin-bottom: 12rem;
+        text-align: center;
+}
+}

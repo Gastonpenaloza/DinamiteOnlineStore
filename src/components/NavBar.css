@@ -1,0 +1,45 @@
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: gray;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link:focus {
+    color: white;
+}
+
+.cartAmount {
+    display: flex;
+    align-items: baseline;
+}
+
+.cartAmount .number {
+    padding-left: 0.5rem;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+    border: none;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+
+.iconAndNumber {
+    display: flex;
+}
+
+@media (min-width: 1050px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: end;
+    }
+}

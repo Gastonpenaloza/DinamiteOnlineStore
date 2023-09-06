@@ -1,0 +1,26 @@
+.card-img-top {
+    height: 75%;
+}
+
+.card-title.h5 {
+    font-size: 1.5rem;
+}
+
+.datos-card {
+    font-size: 1.2rem;
+}
+
+.ver-mas {
+    background-color: grey;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    text-align: center;
+    display: block;
+    font-size: 1.2rem;
+}
+
+.ver-mas:hover {
+    background-color: darkgray;
+    color: white;
+    text-decoration: none;
+}

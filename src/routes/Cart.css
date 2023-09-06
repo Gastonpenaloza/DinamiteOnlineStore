@@ -1,0 +1,33 @@
+.content {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.emptyCartText {
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 12rem;
+}
+
+.emptyCartButton {
+    margin-bottom: 4rem;
+}
+
+.endBuyButton {
+    display: block;
+    width: fit-content;
+    padding: 1rem;
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    margin: auto;
+}
+
+.endBuyButton:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+    text-decoration: none;
+}
